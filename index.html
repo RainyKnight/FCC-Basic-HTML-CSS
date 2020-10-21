@@ -6,8 +6,9 @@
 <body>
   <h1>Hello World!</h1>
   <a href="#">
-  <img src="https://pbs.twimg.com/profile_images/729340597904023552/V8NpDCzU_400x400.jpg" alt="A cute winking kitty"
-    id="head"></a>
+    <img src="https://pbs.twimg.com/profile_images/729340597904023552/V8NpDCzU_400x400.jpg" alt="A cute winking kitty"
+      id="head"></a>
+  <!-- LINK TO LOCAL ID ON PAGE -->
   <p>Click <a href="#footer"> HERE</a> to go to feets!</p>
 
   <main>
@@ -22,6 +23,7 @@
 
     <h2>What characteristics make the perfect kitten?</h2>
 
+    <!-- UNORDERED LIST -->
     <ul>
       <li>Big eyes</li>
       <li>Buncha floof</li>
@@ -39,6 +41,8 @@
       tellus diam sollicitudin velit, vel pulvinar purus nisl at elit.
     </p>
 
+
+    <!-- ORDERED LIST -->
     <h2>TOP 10 THINGS I LIKE ABOUT KITTENS</h2>
     <ol>
       <li>They smol</li>
@@ -63,12 +67,33 @@
       tellus et felis volutpat tristique.
     </p>
 
+    <!-- RADIO BUTTONS -->
+    <h2>Vote for your favorite cattribute!</h2>
+    <form action="submit.html">
+      <label for="eyes">
+        <input type="radio" id="eyes" name="cattributes" required>Eyes
+      </label>
+      <br>
+      <label for="fur">
+        <input type="radio" id="fur" name="cattributes" required>Fur
+      </label>
+      <br>
+      <label for="mew">
+        <input type="radio" id="mew" name="cattributes" required>Mew
+      </label>
+      <br><br>
+      <button type="submit">Vote!</button>
+    </form>
+    <hr>
 
     <p>Click <a href="#head">HERE</a> to go to head!</p>
     <img id="footer" src="https://i.pinimg.com/originals/9a/66/00/9a66008629e679c661dd2b7fb0996fd0.jpg">
 
     <h3>Any Suggestions?</h3>
-    <form action="/Users/lucasstoltman/Documents/The Odin Project/git_test/submit.html"><input type="text" placeholder="Type them here!"><button type="submit">Submit</button></form>
+    <form action="submit.html">
+      <input type="text" placeholder="Type them here!" required>
+      <button type="submit">Submit</button>
+    </form>
   </main>
 </body>
 
