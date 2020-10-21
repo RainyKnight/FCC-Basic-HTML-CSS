@@ -1,17 +1,39 @@
+<!DOCTYPE html>
 <html>
 
 <head>
+  <title>The Sandbox</title>
 </head>
 
 <body>
-  <h1>Hello World!</h1>
+  <h1>Welcome to the Sandbox!</h1>
   <a href="#">
     <img src="https://pbs.twimg.com/profile_images/729340597904023552/V8NpDCzU_400x400.jpg" alt="A cute winking kitty"
-      id="head"></a>
+      id="wink"></a>
+      
   <!-- LINK TO LOCAL ID ON PAGE -->
   <p>Click <a href="#footer"> HERE</a> to go to feets!</p>
 
   <main>
+    <hr>
+    <!-- CHECKBOXES -->
+    <div>
+      <h2>How are you feeling today?</h2>
+      <form action="submit.html" target="_blank">
+        <label for="good">
+          <!-- checked -->
+          <input type="checkbox" id="good" name="good-bad" value="good" checked> Good
+        </label>
+        <label for="bad">
+          <input type="checkbox" id="bad" name="good-bad" value="bad"> Bad
+        </label>
+        <br><br>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <hr>
+
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec congue diam. Phasellus commodo hendrerit
       lacus, sed suscipit erat mollis placerat. Phasellus ultrices iaculis leo, eu auctor eros. Aliquam maximus ipsum
@@ -68,18 +90,20 @@
       vitae hendrerit ante finibus sit amet. Etiam efficitur est non tempus sagittis. Fusce et feugiat massa. Duis ac
       tellus et felis volutpat tristique.
     </p>
+    <hr>
 
     <!-- RADIO BUTTONS -->
     <div>
-      <h2>Vote for your favorite cattribute!</h2>
-      <form action="submit.html">
+      <h2>Vote fur your favorite cattribute!</h2>
+      <form action="submit.html" target="_blank">
         <!-- Will return "cattributes=eyes" -->
         <label for="eyes">
+          <!-- required -->
           <input type="radio" id="eyes" name="cattributes" value="eyes" required>Eyes
         </label>
         <br>
         <label for="fur">
-          <input type="radio" id="fur" name="cattributes" value="fur" required>Fur
+          <input type="radio" id="fluff" name="cattributes" value="fluff" required>Fluff
         </label>
         <br>
         <label for="mew">
@@ -91,12 +115,13 @@
     </div>
     <hr>
 
-    <p>Click <a href="#head">HERE</a> to go to head!</p>
+    <p>Click <a href="#wink">HERE</a> to go to wink!</p>
     <img id="footer" src="https://i.pinimg.com/originals/9a/66/00/9a66008629e679c661dd2b7fb0996fd0.jpg">
 
+    <!-- Text Input Form-->
     <div>
       <h3>Any Suggestions?</h3>
-      <form action="submit.html">
+      <form action="submit.html" target="_blank">
         <input type="text" placeholder="Type them here!" required>
         <button type="submit">Submit</button>
       </form>
