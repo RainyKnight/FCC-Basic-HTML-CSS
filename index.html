@@ -21,16 +21,18 @@
       nisi rhoncus, blandit neque finibus, blandit ex.
     </p>
 
-    <h2>What characteristics make the perfect kitten?</h2>
+    <div>
+      <h2>What characteristics make the perfect kitten?</h2>
 
-    <!-- UNORDERED LIST -->
-    <ul>
-      <li>Big eyes</li>
-      <li>Buncha floof</li>
-      <li>Many yawns</li>
-      <li>P O U N C E</li>
-      <li>Cuddles</li>
-    </ul>
+      <!-- UNORDERED LIST -->
+      <ul>
+        <li>Big eyes</li>
+        <li>Buncha floof</li>
+        <li>Many yawns</li>
+        <li>P O U N C E</li>
+        <li>Cuddles</li>
+      </ul>
+    </div>
 
     <p>
       Nulla posuere sed est sit amet vehicula. Ut sit amet hendrerit tortor, a imperdiet purus. Sed mollis dolor nunc,
@@ -41,22 +43,22 @@
       tellus diam sollicitudin velit, vel pulvinar purus nisl at elit.
     </p>
 
-
-    <!-- ORDERED LIST -->
-    <h2>TOP 10 THINGS I LIKE ABOUT KITTENS</h2>
-    <ol>
-      <li>They smol</li>
-      <li>They mew</li>
-      <li>90% sleep</li>
-      <li>10% zoom</li>
-      <li>Think they're ferocious</li>
-      <li>Often take a T U M B L E</li>
-      <li>Lil roar</li>
-      <li>Clueless eyes</li>
-      <li>s o f t</li>
-      <li>Snuggle</li>
-    </ol>
-
+    <div>
+      <!-- ORDERED LIST -->
+      <h2>TOP 10 THINGS I LIKE ABOUT KITTENS</h2>
+      <ol>
+        <li>They smol</li>
+        <li>They mew</li>
+        <li>90% sleep</li>
+        <li>10% zoom</li>
+        <li>Think they're ferocious</li>
+        <li>Often take a T U M B L E</li>
+        <li>Lil roar</li>
+        <li>Clueless eyes</li>
+        <li>s o f t</li>
+        <li>Snuggle</li>
+      </ol>
+    </div>
 
     <p>
       Duis auctor sollicitudin nulla et tincidunt. Curabitur metus orci, aliquet in mollis quis, feugiat a leo.
@@ -68,33 +70,38 @@
     </p>
 
     <!-- RADIO BUTTONS -->
-    <h2>Vote for your favorite cattribute!</h2>
-    <form action="submit.html">
-      <label for="eyes">
-        <input type="radio" id="eyes" name="cattributes" required>Eyes
-      </label>
-      <br>
-      <label for="fur">
-        <input type="radio" id="fur" name="cattributes" required>Fur
-      </label>
-      <br>
-      <label for="mew">
-        <input type="radio" id="mew" name="cattributes" required>Mew
-      </label>
-      <br><br>
-      <button type="submit">Vote!</button>
-    </form>
+    <div>
+      <h2>Vote for your favorite cattribute!</h2>
+      <form action="submit.html">
+        <!-- Will return "cattributes=eyes" -->
+        <label for="eyes">
+          <input type="radio" id="eyes" name="cattributes" value="eyes" required>Eyes
+        </label>
+        <br>
+        <label for="fur">
+          <input type="radio" id="fur" name="cattributes" value="fur" required>Fur
+        </label>
+        <br>
+        <label for="mew">
+          <input type="radio" id="mew" name="cattributes" value="mew" required>Mew
+        </label>
+        <br><br>
+        <button type="submit">Vote!</button>
+      </form>
+    </div>
     <hr>
 
     <p>Click <a href="#head">HERE</a> to go to head!</p>
     <img id="footer" src="https://i.pinimg.com/originals/9a/66/00/9a66008629e679c661dd2b7fb0996fd0.jpg">
 
-    <h3>Any Suggestions?</h3>
-    <form action="submit.html">
-      <input type="text" placeholder="Type them here!" required>
-      <button type="submit">Submit</button>
-    </form>
+    <div>
+      <h3>Any Suggestions?</h3>
+      <form action="submit.html">
+        <input type="text" placeholder="Type them here!" required>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
   </main>
 </body>
 
-</html
+</html>
