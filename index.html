@@ -9,13 +9,24 @@
 
   <style>
     .chonk {
-      color: grey;
       font-family: 'Raleway', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-size: 300%;
     }
 
+    .circle-image {
+      border-color: black;
+      /* This makes a circle */
+      border-radius: 50%;
+      border-style: solid;
+    }
+
     body {
       background-color: linen;
+      border-color: black;
+      border-width: 2px;
+      border-style: groove;
+      text-align: center;
+
     }
 
     h2 {
@@ -25,6 +36,10 @@
     p {
       font-family: Arial, Helvetica, sans-serif;
     }
+
+    li {
+      text-align: left;
+    }
   </style>
 
 </head>
@@ -32,8 +47,8 @@
 <body>
   <h1 class="chonk">Welcome to the Sandbox!</h1>
   <a href="#">
-    <img src="https://pbs.twimg.com/profile_images/729340597904023552/V8NpDCzU_400x400.jpg" alt="A cute winking kitty"
-      id="wink"></a>
+    <img src="https://pbs.twimg.com/profile_images/729340597904023552/V8NpDCzU_400x400.jpg" class="circle-image"
+      alt="A cute winking kitty" id="wink"></a>
 
   <!-- LINK TO LOCAL ID ON PAGE -->
   <p>Click <a href="#footer"> HERE</a> to go to feets!</p>
@@ -149,6 +164,7 @@
         <input type="text" placeholder="Type them here!" required>
         <button type="submit">Submit</button>
       </form>
+      <br>
     </div>
   </main>
 </body>
