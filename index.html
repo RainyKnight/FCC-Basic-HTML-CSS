@@ -10,22 +10,34 @@
   <style>
     .chonk {
       font-family: 'Raleway', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      font-size: 300%;
+      font-size: 50px;
     }
 
-    .circle-image {
+    /* Class Selector */
+    .round {
       border-color: black;
       /* This makes a circle */
       border-radius: 50%;
+      border-width: 10px;
+      border-style: dashed;
+    }
+
+    /* ID Selector */
+    #footer {
+      border-color: black;
+      border-width: 10px;
       border-style: solid;
     }
 
+    /* Element Selector */
     body {
       background-color: linen;
       border-color: black;
-      border-width: 2px;
+      border-width: 5px;
       border-style: groove;
       text-align: center;
+      padding: 20px 20px 40px 20px;
+      font-family: Arial, Helvetica, sans-serif;
 
     }
 
@@ -34,11 +46,22 @@
     }
 
     p {
-      font-family: Arial, Helvetica, sans-serif;
+      text-align: left;
     }
 
     li {
       text-align: left;
+      margin-left: 35%;
+      font-size: 24px;
+    }
+
+    .box {
+      border-width: 2px;
+      border-style: solid;
+      border-color: grey;
+      padding-bottom: 20px;
+      /* top right bottom left */
+      margin: 30px 20px 0px 20px;
     }
   </style>
 
@@ -47,11 +70,11 @@
 <body>
   <h1 class="chonk">Welcome to the Sandbox!</h1>
   <a href="#">
-    <img src="https://pbs.twimg.com/profile_images/729340597904023552/V8NpDCzU_400x400.jpg" class="circle-image"
+    <img src="https://pbs.twimg.com/profile_images/729340597904023552/V8NpDCzU_400x400.jpg" class="round"
       alt="A cute winking kitty" id="wink"></a>
 
   <!-- LINK TO LOCAL ID ON PAGE -->
-  <p>Click <a href="#footer"> HERE</a> to go to feets!</p>
+  <h4>Click <a href="#footer"> HERE</a> to go to feets!</h4>
 
   <main>
     <hr>
@@ -154,17 +177,16 @@
     </div>
     <hr>
 
-    <p>Click <a href="#wink">HERE</a> to go to wink!</p>
+    <h4>Click <a href="#wink">HERE</a> to go to wink!</h4>
     <img id="footer" src="https://i.pinimg.com/originals/9a/66/00/9a66008629e679c661dd2b7fb0996fd0.jpg">
 
     <!-- Text Input Form-->
-    <div>
-      <h3>Any Suggestions?</h3>
+    <div class="box">
+      <h3 style="font-family: 'Raleway';">Any Suggestions?</h3>
       <form action="submit.html" target="_blank">
         <input type="text" placeholder="Type them here!" required>
         <button type="submit">Submit</button>
       </form>
-      <br>
     </div>
   </main>
 </body>
