@@ -1,56 +1,74 @@
 .chonk {
-    font-family: 'Raleway', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 50px;
-  }
+  font-family: 'Raleway', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 50px;
+}
 
-  /* Class Selector */
-  .round {
-    border-color: black;
-    /* This makes a circle */
-    border-radius: 50%;
-    border-width: 10px;
-    border-style: dashed;
-  }
+/* Class Selector */
 
-  /* ID Selector */
-  #footer {
-    border-color: black;
-    border-width: 10px;
-    border-style: solid;
-  }
+.round {
+  border-color: black;
+  /* This makes a circle */
+  border-radius: 50%;
+  border-width: 10px;
+  border-style: dashed;
+}
 
-  /* Element Selector */
-  body {
-    background-color: linen;
-    border-color: black;
-    border-width: 5px;
-    border-style: groove;
-    text-align: center;
-    padding: 20px 20px 40px 20px;
-    font-family: Arial, Helvetica, sans-serif;
+/* ID Selector */
 
-  }
+#footer {
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+}
 
-  h2 {
-    color: darkgreen;
-  }
+/* Element Selector */
 
-  p {
-    text-align: left;
-  }
+body {
+  background-color: linen;
+  border-color: black;
+  border-width: 5px;
+  border-style: groove;
+  text-align: center;
+  padding: 20px 20px 40px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  li {
-    text-align: left;
-    margin-left: 35%;
-    font-size: 24px;
-  }
+h2 {
+  color: darkgreen;
+}
 
-  .box {
-    border-width: 2px;
-    border-style: solid;
-    border-color: grey;
-    padding-bottom: 20px;
-    /* top right bottom left */
-    margin: 30px 20px 0px 20px;
-  }
-¸Í
+p {
+  text-align: left;
+}
+
+li {
+  text-align: left;
+  margin-left: 35%;
+  font-size: 24px;
+}
+
+.box {
+  border-width: 2px;
+  border-style: solid;
+  border-color: grey;
+  padding-bottom: 20px;
+  /* top right bottom left */
+  margin: 30px 20px 0px 20px;
+}
+
+#practiceBox {
+  background-color: white;
+  border-width: 10px;
+  border-color: black;
+  border-style: solid;
+  padding: 20px;
+}
+
+#practiceBoxTwo {
+  background-color: black;
+  border-width: 10px;
+  border-color: black;
+  border-style: solid;
+  padding: 100px;
+  margin: 20px;
+}
