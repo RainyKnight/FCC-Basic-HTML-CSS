@@ -33,6 +33,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Attribute Selector */
+
+[type='submit'] {
+  color: white;
+  background: red;
+  border-radius: 10%;
+}
+
 h2 {
   color: darkgreen;
 }
