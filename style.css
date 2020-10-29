@@ -77,6 +77,9 @@ li {
   border-width: 10px;
   border-color: black;
   border-style: solid;
-  padding: 100px;
+  /* em is relative to the current font size */
+  padding: 1.5em;
   margin: 20px;
+  font-size: 64px;
+  color: white;
 }
