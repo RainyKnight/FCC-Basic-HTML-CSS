@@ -1,3 +1,8 @@
+/* Set global variables here. Affects HTML element */
+:root {
+    --crazy-green: #30e320;
+}
+
 .chonk {
   font-family: 'Raleway', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 50px;
@@ -40,11 +45,17 @@ body {
 
 [type='submit'] {
   color: #fff;
-  /* Custom CSS Variable */
+  /* Custom CSS Variable */ 
   --vote-button: red;
   /* Fallback to maroon */
   background: var(--vote-button, maroon);
   border-radius: 10%;
+}
+
+a {
+  /* Added a non-custom color as a fallback */
+  color: greenyellow;
+  color: var(--crazy-green);
 }
 
 p {

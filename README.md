@@ -1,1 +1,1 @@
-A practice website to implement new HTML, CSS, and JS concepts.
+A practice website to implement new HTML and CSS concepts.
