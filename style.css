@@ -26,7 +26,7 @@
 
 body {
   background-color: linen;
-  border-color: black;
+  border-color: rgb(0, 0, 0);
   border-width: 5px;
   border-style: groove;
   text-align: center;
@@ -40,7 +40,10 @@ body {
 
 [type='submit'] {
   color: #fff;
-  background: rgb(255,0,0);
+  /* Custom CSS Variable */
+  --vote-button: red;
+  /* Fallback to maroon */
+  background: var(--vote-button, maroon);
   border-radius: 10%;
 }
 
